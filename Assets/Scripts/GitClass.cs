@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class GitClass : MonoBehaviour
 {
-    string myName = "Git";
-    int myPower = 9001;
+    string myName = "Git 3000";
+    int myPower = 9002;
 
     // Start is called before the first frame update
     void Start()
     {
-        print("Hello! My name is " + myName);
+        print("Hello! My name is ... " + myName + "!!!");
 
         if (myPower > 9000)
         {
