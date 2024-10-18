@@ -4,17 +4,33 @@ using UnityEngine;
 
 public class GitClass : MonoBehaviour
 {
-    string myName = "Git";
-    int myPower = 9001;
+    string myName = "raccoon";
+    int cookies = 1;
 
     // Start is called before the first frame update
     void Start()
     {
         print("Hello! My name is " + myName);
-
-        if (myPower > 9000)
+        while (true)
         {
-            print("It's over 9000!!!");
+
+             if (cookies <= 5)
+            {
+                print("eu gosto disso");
+            }
+            else if (cookies <= 10)
+            {
+                print("gonna steal your cookies later");
+            }
+            else if (cookies <= 15)
+            {
+                print("MINE");
+            }
+            if (cookies > 20)
+            {
+                break;
+            }
+            cookies++;
         }
     }
 
